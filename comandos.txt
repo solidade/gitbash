@@ -16,6 +16,7 @@ git restore --Staged nomedoarquivo remove um arquivo da Stage are
 git diff mostra todas as alterações que fiz no repositório, como aremoção/adição de arquivos, modificações em arquivos, etc. o git te diz exatamente que tipo de modificação você fez para que faça o commit seguro do que está mudando.
 git commit -amend permite fazer modificações no ultimo commit, desde mudar a mensagem até alterar ou remover arquivos.
 git checkout pontonahistoria -- nomedoarquivo esse comando checa um arquivo em um ponto da história e traz ele novamente para seu diretório de trabalho atual.
+git clean remove PERMANENTEMENTE arquivos não rastreados
 
 # Sobre o VIM
 - pressione i para entrar no modo de edição e de começar a escrever
