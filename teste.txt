@@ -1,1 +1,10 @@
 Testando o vim como editor.
+Git add
+Git commit -m "mensagem/descrição"
+
+git log --oneline mostra os commits de forma resumida
+git log -n 5 mostra os ultimos 5 commits
+git log --author=Miqueias mostra os commits realizados por Miqueias
+git log --since=2021-10-30 mostra os commits desde 30/10/2021
+git log --until=2021-10-30 mostra os commits antes de 30/10/2021
+git log --grep="inicial" mostra todos os commits com a palavra "inicial" 
