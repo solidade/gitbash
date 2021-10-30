@@ -7,4 +7,15 @@ git log -n 5 mostra os ultimos 5 commits
 git log --author=Miqueias mostra os commits realizados por Miqueias
 git log --since=2021-10-30 mostra os commits desde 30/10/2021
 git log --until=2021-10-30 mostra os commits antes de 30/10/2021
-git log --grep="inicial" mostra todos os commits com a palavra "inicial" 
+git log --grep="inicial" mostra todos os commits com a palavra "inicial"
+
+git status mostra os status dos meus commits pendentes
+git add . adiciona todas as modificações na Stage area
+git add nomedoarquivo adiciona um arquivo específico na Stage are
+git restore --Staged nomedoarquivo remove um arquivo da Stage are
+
+# Sobre o VIM
+- pressione i para entrar no modo de edição e de começar a escrever
+- presione esc para sair do modo edição
+- presiona :wq para salvar a modificação e sair do vim
+
