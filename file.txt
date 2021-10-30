@@ -1,0 +1,2 @@
+Testando e verificando status dos commits no git
+basicamente estou testando a função git status.
