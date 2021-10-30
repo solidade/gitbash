@@ -1,2 +1,4 @@
 Testando e verificando status dos commits no git
 basicamente estou testando a função git status.
+
+Novamente testando algumas coisas sobre Stage area.
