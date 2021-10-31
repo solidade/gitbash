@@ -11,3 +11,5 @@
 - Esse é o local onde nossos commits ficam guardados
 - Podemos chamar de banco de dados com as versões do repositório
 - Versões, pontos na história, histórico... sinônimos
+
+# Fazendo alterações aleatórias
