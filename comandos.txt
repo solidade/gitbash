@@ -1,0 +1,25 @@
+Testando o vim como editor.
+Git add
+Git commit -m "mensagem/descrição"
+
+git log --oneline mostra os commits de forma resumida
+git log -n 5 mostra os ultimos 5 commits
+git log --author=Miqueias mostra os commits realizados por Miqueias
+git log --since=2021-10-30 mostra os commits desde 30/10/2021
+git log --until=2021-10-30 mostra os commits antes de 30/10/2021
+git log --grep="inicial" mostra todos os commits com a palavra "inicial"
+
+git status mostra os status dos meus commits pendentes
+git add . adiciona todas as modificações na Stage area
+git add nomedoarquivo adiciona um arquivo específico na Stage are
+git restore --Staged nomedoarquivo remove um arquivo da Stage are
+git diff mostra todas as alterações que fiz no repositório, como aremoção/adição de arquivos, modificações em arquivos, etc. o git te diz exatamente que tipo de modificação você fez para que faça o commit seguro do que está mudando.
+git commit -amend permite fazer modificações no ultimo commit, desde mudar a mensagem até alterar ou remover arquivos.
+git checkout pontonahistoria -- nomedoarquivo esse comando checa um arquivo em um ponto da história e traz ele novamente para seu diretório de trabalho atual.
+git clean remove PERMANENTEMENTE arquivos não rastreados
+
+# Sobre o VIM
+- pressione i para entrar no modo de edição e de começar a escrever
+- presione esc para sair do modo edição
+- presiona :wq para salvar a modificação e sair do vim
+
